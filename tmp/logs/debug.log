@@ -1,0 +1,59 @@
+2012-08-30 14:47:31 Error: [MissingControllerException] Controller class ApiController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/cakefest/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-30 14:47:38 Error: [MissingControllerException] Controller class ApiController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/cakefest/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-30 14:48:07 Error: [MissingConnectionException] Database connection "SQLSTATE[42000] [1049] Unknown database 'cakefest2012'" is missing, or could not be created.
+#0 /Applications/XAMPP/xamppfiles/htdocs/cakefest/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Applications/XAMPP/xamppfiles/htdocs/cakefest/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/cakefest/lib/Cake/Model/Model.php(3158): ConnectionManager::getDataSource('default')
+#3 /Applications/XAMPP/xamppfiles/htdocs/cakefest/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /Applications/XAMPP/xamppfiles/htdocs/cakefest/lib/Cake/Model/Model.php(3180): Model->setSource('categories')
+#5 /Applications/XAMPP/xamppfiles/htdocs/cakefest/lib/Cake/Model/Model.php(2732): Model->getDataSource()
+#6 /Applications/XAMPP/xamppfiles/htdocs/cakefest/lib/Cake/Model/Model.php(2668): Model->_findCount('before', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/cakefest/lib/Cake/Model/Model.php(2626): Model->buildQuery('count', Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/cakefest/lib/Cake/Model/Model.php(2556): Model->find('count', Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/cakefest/app/Controller/CategoriesController.php(31): Model->exists()
+#10 [internal function]: CategoriesController->view('3')
+#11 /Applications/XAMPP/xamppfiles/htdocs/cakefest/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(CategoriesController), Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/cakefest/app/Controller/AppController.php(54): Controller->invokeAction(Object(CakeRequest))
+#13 /Applications/XAMPP/xamppfiles/htdocs/cakefest/lib/Cake/Routing/Dispatcher.php(186): AppController->invokeAction(Object(CakeRequest))
+#14 /Applications/XAMPP/xamppfiles/htdocs/cakefest/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#15 /Applications/XAMPP/xamppfiles/htdocs/cakefest/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-08-30 14:48:56 Error: [ValidationException] Please correct your errors
+#0 [internal function]: CategoriesController->add()
+#1 /Applications/XAMPP/xamppfiles/htdocs/cakefest/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(CategoriesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/cakefest/app/Controller/AppController.php(54): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/cakefest/lib/Cake/Routing/Dispatcher.php(186): AppController->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/cakefest/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/cakefest/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-08-30 14:49:10 Error: [ValidationException] Please correct your errors
+#0 [internal function]: CategoriesController->add()
+#1 /Applications/XAMPP/xamppfiles/htdocs/cakefest/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(CategoriesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/cakefest/app/Controller/AppController.php(54): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/cakefest/lib/Cake/Routing/Dispatcher.php(186): AppController->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/cakefest/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/cakefest/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-08-30 14:49:19 Error: [ValidationException] Please correct your errors
+#0 [internal function]: CategoriesController->add()
+#1 /Applications/XAMPP/xamppfiles/htdocs/cakefest/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(CategoriesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/cakefest/app/Controller/AppController.php(54): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/cakefest/lib/Cake/Routing/Dispatcher.php(186): AppController->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/cakefest/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/cakefest/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-08-30 14:49:32 Error: [ValidationException] Please correct your errors
+#0 [internal function]: CategoriesController->add()
+#1 /Applications/XAMPP/xamppfiles/htdocs/cakefest/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(CategoriesController), Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/cakefest/app/Controller/AppController.php(54): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/XAMPP/xamppfiles/htdocs/cakefest/lib/Cake/Routing/Dispatcher.php(186): AppController->invokeAction(Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/cakefest/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#5 /Applications/XAMPP/xamppfiles/htdocs/cakefest/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2012-08-30 14:51:39 Error: [MissingControllerException] Controller class ApiController could not be found.
+#0 /Applications/XAMPP/xamppfiles/htdocs/cakefest/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

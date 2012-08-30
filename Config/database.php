@@ -7,7 +7,7 @@ class DATABASE_CONFIG {
 		'host' => 'localhost',
 		'login' => 'root',
 		'password' => '',
-		'database' => 'cakefest2012',
+		'database' => 'cakefest',
 		'encoding' => 'utf8'
 	);
 }
